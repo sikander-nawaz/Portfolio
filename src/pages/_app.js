@@ -1,3 +1,4 @@
+import NavBar from "@/components/NavBar";
 import "@/styles/globals.css";
 import { Montserrat } from "next/font/google";
 import Head from "next/head";
@@ -15,6 +16,7 @@ export default function App({ Component, pageProps }) {
       <main
         className={`${montserrat.variable} font-mont bg-light w-full min-h-screen`}
       >
+        <NavBar />
         <Component {...pageProps} />
       </main>
     </>

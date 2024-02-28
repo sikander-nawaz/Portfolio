@@ -76,8 +76,6 @@ const Experience = () => {
           />
         </ul>
       </div>
-
-      <div style={{ height: "100vh" }}></div>
     </div>
   );
 };

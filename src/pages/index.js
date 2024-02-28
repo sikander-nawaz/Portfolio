@@ -1,8 +1,10 @@
 import Layout from "@/components/Layout";
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 import profilePic from "../../public/images/profile/developer-pic-1.png";
 import AnimatedText from "@/components/AnimatedText";
+import { LinkArrow } from "@/components/Icons";
 
 export default function Home() {
   return (
@@ -30,6 +32,23 @@ export default function Home() {
                 projects and articles, showcasing my expertise in React.js and
                 web development.
               </p>
+              <div className="flex items-center self-start mt-2">
+                <Link
+                  href="/dummy.pdf"
+                  target="_blank"
+                  className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark"
+                >
+                  Resume <LinkArrow className={"w-6 ml-1"} />
+                </Link>
+
+                <Link
+                  href="mailto:sikandernawaz35@gmail.com"
+                  target="_blank"
+                  className=" ml-2 flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark"
+                >
+                  Contact
+                </Link>
+              </div>
             </div>
           </div>
         </Layout>

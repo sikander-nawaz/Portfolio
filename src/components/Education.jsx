@@ -43,24 +43,24 @@ const Education = () => {
         />
         <ul className="w-full flex flex-col items-center justify-between ml-4">
           <Details
-            type={"Bachelor Of Science In Computer Science."}
+            type={"Bachelor Of Science In Computer Science"}
             time={"2019-2023"}
-            place={"Government College University Faisalabad."}
+            place={"Government College University Faisalabad"}
             info={
-              "Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial Intelligence."
+              "Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Web Desging."
             }
           />
 
           <Details
             type={"MERN Stack"}
-            time={"Freelancing"}
-            place={"https://www.linkedin.com/in/sikander-nawaz/"}
-            info={"2023-Present"}
+            time={"2022-2023"}
+            place={"Saylani Mass IT Training Faisalabad"}
+            info={
+              "In this course, I learned about various new technologies such as HTML, CSS, Bootstrap, JavaScript, Firebase, Firestore, ReactJS, React Native, REST APIs, ExpressJS, NodeJS, MongoDB, Git, and GitHub."
+            }
           />
         </ul>
       </div>
-
-      <div style={{ height: "100vh" }}></div>
     </div>
   );
 };

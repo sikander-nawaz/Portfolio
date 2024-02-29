@@ -6,7 +6,7 @@ import Layout from "@/components/Layout";
 import Education from "@/components/Education";
 import Experience from "@/components/Experience";
 import AnimatedText from "@/components/AnimatedText";
-import profilePic from "../../public/images/profile/developer-pic-2.jpg";
+import profilePic from "../../public/images/profile/developer-pic-2.png";
 import { useInView, useMotionValue, useSpring } from "framer-motion";
 
 const AnimatedNumbers = ({ value }) => {

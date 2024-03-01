@@ -19,7 +19,13 @@ export default function Home() {
         <Layout className="pt-0">
           <div className="flex items-center justify-between w-full">
             <div className="w-1/2">
-              <Image src={profilePic} alt="profile" className="w-full h-auto" />
+              <Image
+                src={profilePic}
+                alt="profile"
+                className="w-full h-auto"
+                priority
+                sizes="(max-width: 786px) 100vw, (max-width: 1200px) 50vw, 50vw"
+              />
             </div>
 
             <div className="w-1/2 flex flex-col items-center self-center">
@@ -43,7 +49,7 @@ export default function Home() {
                 </Link>
 
                 <Link
-                  href="mailto:sikandernawaz35@gmail.com"
+                  href="mailto:sikandernawaz295@gmail.com"
                   target="_blank"
                   className=" ml-2 flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light hover:dark:border-light"
                 >

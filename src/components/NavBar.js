@@ -202,8 +202,19 @@ const NavBar = () => {
         </motion.div>
       ) : null}
 
-      <div className="absolute left-[50%] top-2 translate-x-[-50%]">
+      {/* <div className="absolute left-[50%] top-2 translate-x-[-50%] md:right-2 md:left-auto">
         <Logo />
+      </div> */}
+
+      {/* <div className="absolute top-2 left-[50%] translate-x-[-50%] md:top-auto md:bottom-2 right-2 md:left-auto md:right-2">
+        <div className="flex justify-center md:justify-end">
+          <Logo />
+        </div>
+      </div> */}
+      <div className="absolute top-2 left-[50%] translate-x-[-50%] lg:top-auto lg:bottom-2 right-2 lg:left-auto lg:right-2 lg:top-2">
+        <div className="flex justify-center lg:justify-end">
+          <Logo />
+        </div>
       </div>
     </header>
   );

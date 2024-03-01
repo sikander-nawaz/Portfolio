@@ -42,7 +42,7 @@ const MovingImg = ({ title, img, link }) => {
         ref={imgRef}
         src={img}
         alt={title}
-        className="w-96 h-auto hidden absolute rounded-lg z-10"
+        className="w-96 h-auto hidden absolute rounded-lg z-10 md:!hidden"
       />
     </Link>
   );
@@ -70,7 +70,7 @@ const FeaturedArticles = ({ img, title, date, summary, link }) => {
       </Link>
 
       <Link href={link} target="_blank">
-        <h2 className="capitalize mt-4 text-2xl font-bold my-2 hover:underline">
+        <h2 className="capitalize mt-4 text-2xl font-bold my-2 hover:underline xs:text-lg">
           {title}
         </h2>
       </Link>
@@ -90,10 +90,10 @@ const Article = ({ img, title, date, link }) => {
       initial={{ y: 200 }}
       whileInView={{ y: 0, transition: { duration: 0.5, ease: "easeInOut" } }}
       viewport={{ once: true }}
-      className="relative w-full p-4 py-6 my-4 rounded-xl flex items-center justify-between bg-light text-dark first:mt-0 border border-solid border-dark border-r-4 border-b-4 dark:border-light dark:bg-dark dark:text-light"
+      className="relative w-full p-4 py-6 my-4 rounded-xl flex items-center justify-between bg-light text-dark first:mt-0 border border-solid border-dark border-r-4 border-b-4 dark:border-light dark:bg-dark dark:text-light sm:flex-col"
     >
       <MovingImg img={img} title={title} link={link} />
-      <span className="text-primary font-semibold pl-4 dark:text-primaryDark">
+      <span className="text-primary font-semibold pl-4 dark:text-primaryDark sm:self-end sm:pl-0 sm:py-1 xs:text-sm">
         {date}
       </span>
     </motion.li>
@@ -112,9 +112,9 @@ const articles = () => {
         <Layout className="pt-16">
           <AnimatedText
             text={"Words Can Change The World!"}
-            className="mb-16"
+            className="mb-16 lg!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
           />
-          <ul className="grid grid-cols-2 gap-16">
+          <ul className="grid grid-cols-2 gap-16 lg:gap-8 md:grid-cols-1 ms:gap-y-16">
             <FeaturedArticles
               img={article1}
               title={

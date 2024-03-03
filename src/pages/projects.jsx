@@ -7,6 +7,7 @@ import Layout from "@/components/Layout";
 import { GithubIcon } from "@/components/Icons";
 import AnimatedText from "@/components/AnimatedText";
 import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg";
+import TransitionEffect from "@/components/TransitionEffect";
 
 const FramerMotion = motion(Image);
 
@@ -126,6 +127,8 @@ const projects = () => {
         <title>Portfolio | Projects</title>
         <meta name="description" content="any description" />
       </Head>
+
+      <TransitionEffect />
 
       <main className="w-full flex flex-col items-center justify-center dark:text-light">
         <Layout className="pt-16">

@@ -27,19 +27,23 @@ const Skills = () => {
           className="flex items-center justify-center rounded-full font-semibold bg-dark text-light p-8 shadow-dark cursor-pointer dark:bg-light dark:text-dark lg:p-6 md:p-4 xs:text-xs xs:p-2"
           whileHover={{ scale: 1.05 }}
         >
-          Web
+          HTML
         </motion.div>
 
-        <Skill name={"CSS"} x={"-36vw"} y={"2vw"} />
-        <Skill name={"Javascript"} x={"-0vw"} y={"-20vw"} />
-        <Skill name={"ReactJS"} x={"20vw"} y={"6vw"} />
-        <Skill name={"NextJS"} x={"0vw"} y={"12vw"} />
-        <Skill name={"Python"} x={"20vw"} y={"-15vw"} />
-        <Skill name={"Java"} x={"-25vw"} y={"-8vw"} />
-        <Skill name={"Firebase"} x={"32vw"} y={"-5vw"} />
-        <Skill name={"ReactNative"} x={"-25vw"} y={"-20vw"} />
+        <Skill name={"CCS"} x={"25vw"} y={"-20vw"} />
+        <Skill name={"SAAS/SCCS"} x={"-25vw"} y={"-20vw"} />
         <Skill name={"Bootstrap CSS"} x={"-28vw"} y={"18vw"} />
-        <Skill name={"Tailwind CSS"} x={"18vw"} y={"18vw"} />
+        <Skill name={"Tailwind CSS"} x={"28vw"} y={"18vw"} />
+        <Skill name={"Javascript"} x={"-0vw"} y={"-20vw"} />
+        <Skill name={"ReactNative"} x={"-36vw"} y={"-1vw"} />
+        <Skill name={"ReactJS"} x={"36vw"} y={"0vw"} />
+        <Skill name={"NextJS"} x={"0vw"} y={"20vw"} />
+        <Skill name={"ExpressJS"} x={"16vw"} y={"-13vw"} />
+        <Skill name={"NodeJS"} x={"-21vw"} y={"-11vw"} />
+        <Skill name={"MongoDB"} x={"-25vw"} y={"8vw"} />
+        <Skill name={"Firebase"} x={"21vw"} y={"11vw"} />
+        <Skill name={"Python"} x={"0vw"} y={"-12vw"} />
+        <Skill name={"Java"} x={"0vw"} y={"12vw"} />
       </div>
     </>
   );

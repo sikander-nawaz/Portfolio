@@ -6,6 +6,7 @@ import Link from "next/link";
 import React, { useRef } from "react";
 import article1 from "../../public/images/articles/pagination component in reactjs.jpg";
 import { motion, useMotionValue } from "framer-motion";
+import TransitionEffect from "@/components/TransitionEffect";
 
 const FramerImage = motion(Image);
 
@@ -107,6 +108,8 @@ const articles = () => {
         <title>Portfolio | Articles</title>
         <meta name="description" content="any description" />
       </Head>
+
+      <TransitionEffect />
 
       <main className="w-full flex flex-col items-center justify-center overflow-hidden dark:text-light">
         <Layout className="pt-16">

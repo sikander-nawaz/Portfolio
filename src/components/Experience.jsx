@@ -60,11 +60,11 @@ const Experience = () => {
             time={"2023-Present"}
             address={"Remotely"}
             work={
-              "Worked on a team responsible for developing new features for Google's search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization."
+              "Developed and delivered a wide range of web-based solutions.Built and maintained strong relationships with clients through effective communication and problem-solving skills, ensuring timely completion and adherence to project requirements."
             }
           />
 
-          <Details
+          {/* <Details
             position={"MERN Stack"}
             company={"Freelancing"}
             companyLink={"https://www.linkedin.com/in/sikander-nawaz/"}
@@ -73,7 +73,7 @@ const Experience = () => {
             work={
               "Worked on a team responsible for developing new features for Google's search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization."
             }
-          />
+          /> */}
         </ul>
       </div>
     </div>

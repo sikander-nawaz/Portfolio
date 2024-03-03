@@ -8,6 +8,7 @@ import Experience from "@/components/Experience";
 import AnimatedText from "@/components/AnimatedText";
 import profilePic from "../../public/images/profile/developer-pic-2.png";
 import { useInView, useMotionValue, useSpring } from "framer-motion";
+import TransitionEffect from "@/components/TransitionEffect";
 
 const AnimatedNumbers = ({ value }) => {
   const ref = useRef(null);
@@ -41,6 +42,8 @@ const about = () => {
         <meta name="description" content="any description" />
       </Head>
 
+      <TransitionEffect />
+
       <main className="flex w-full flex-col items-center justify-center dark:text-light">
         <Layout className="pt-16">
           <AnimatedText
@@ -49,13 +52,13 @@ const about = () => {
           />
           <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
             <div className="col-span-3 flex flex-col items-start justify-center xl:col-span-4 md:order-2 md:col-span-8">
-              <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">
+              <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75 ">
                 Biography
               </h2>
               <p className="font-medium">
                 Hi, I'm Sikander Nawaz, a full stack developer (MERN) with a
                 passion for creating beautiful, functional, and user-centered
-                digital experiences. With 4 years of experience in the field. I
+                digital experiences. With 6 months of experience in the field. I
                 am always looking for new and innovative ways to bring my
                 clients' visions to life.
               </p>
@@ -89,7 +92,7 @@ const about = () => {
             <div className="col-span-2 flex flex-col items-end justify-between xl:col-span-8 xl:flex-row xl:items-center md:order-3">
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumbers value={40} />+
+                  <AnimatedNumbers value={3} />+
                 </span>
                 <h2 className="text-xl font-medium text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
                   Satisfied Clients
@@ -98,7 +101,7 @@ const about = () => {
 
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumbers value={50} />+
+                  <AnimatedNumbers value={5} />+
                 </span>
                 <h2 className="text-xl font-medium text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
                   Projects Completed
@@ -110,7 +113,7 @@ const about = () => {
                   <AnimatedNumbers value={6} />+
                 </span>
                 <h2 className="text-xl font-medium text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
-                  Months Of Experience
+                  Months of Experience
                 </h2>
               </div>
             </div>

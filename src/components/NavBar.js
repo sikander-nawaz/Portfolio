@@ -187,15 +187,15 @@ const NavBar = () => {
             </motion.a>
 
             <button
-              className={`ml-4 flex items-center justify-center rounded-full ${
+              className={`ml-4 flex items-center justify-center rounded-full lg sm:ml-1 ${
                 mode === "light" ? "bg-dark text-light" : "bg-light text-dark"
-              }`}
+              } `}
               onClick={() => setMode(mode === "light" ? "dark" : "light")}
             >
               {mode === "dark" ? (
-                <SunIcon className={"fill-dark"} />
-              ) : (
                 <MoonIcon className={"fill-dark"} />
+              ) : (
+                <SunIcon className={"fill-dark"} />
               )}
             </button>
           </nav>

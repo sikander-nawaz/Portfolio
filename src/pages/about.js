@@ -9,6 +9,7 @@ import AnimatedText from "@/components/AnimatedText";
 import profilePic from "../../public/images/profile/developer-pic-2.png";
 import { useInView, useMotionValue, useSpring } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
+import MobilesSkills from "@/components/MobilesSkills";
 
 const AnimatedNumbers = ({ value }) => {
   const ref = useRef(null);
@@ -48,7 +49,7 @@ const about = () => {
         <Layout className="pt-16">
           <AnimatedText
             text="Passion Fuels Purpose!"
-            className="mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8 md:mb-11 lg:mb-14"
+            className="mb-16 !leading-tight lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8 md:mb-11 lg:mb-14"
           />
           <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
             <div className="col-span-3 flex flex-col items-start justify-center xl:col-span-4 md:order-2 md:col-span-8">
@@ -120,6 +121,7 @@ const about = () => {
           </div>
 
           <Skills />
+          <MobilesSkills />
           <Experience />
           <Education />
         </Layout>

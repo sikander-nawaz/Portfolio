@@ -6,7 +6,9 @@ import { motion } from "framer-motion";
 import Layout from "@/components/Layout";
 import { GithubIcon } from "@/components/Icons";
 import AnimatedText from "@/components/AnimatedText";
-import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg";
+import calculator from "../../public/images/projects/calculator.PNG";
+import crud from "../../public/images/projects/CRUD.png";
+import managmentSystem from "../../public/images/projects/user-managment-system.PNG";
 import TransitionEffect from "@/components/TransitionEffect";
 
 const FramerMotion = motion(Image);
@@ -134,44 +136,44 @@ const projects = () => {
         <Layout className="pt-16">
           <AnimatedText
             text={"Imagination Trumps Knowledge!"}
-            className="mb-16 lg!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
+            className="mb-16 !leading-tight lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
           />
 
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
               <FeaturedProject
-                img={project1}
+                img={crud}
                 type={"Featured Project"}
-                title={"Bank_App"}
+                title={"CRUD_MERN WEB APP"}
                 summary={
-                  "A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
+                  "CRUD MERN application for streamlined employee management, allowing seamless creation, retrieval, updating, and deletion of employee records."
                 }
                 github={"www.github.com/sikander-nawaz"}
-                link={"https://www.webapp.vercel.com/"}
+                link={"www.github.com/sikander-nawaz"}
               />
             </div>
 
             <div className="col-span-6 sm:col-span-12">
               <Project
-                img={project1}
-                type={"Featured Project"}
-                title={"Bank_App"}
-                github={"www.github.com/sikander-nawaz"}
-                link={"https://www.webapp.vercel.com/"}
+                img={managmentSystem}
+                type={"Local Storage Project"}
+                title={"User Managment System"}
+                github={"https://github.com/sikander-nawaz/Local_Storage.git"}
+                link={"https://assignment-saylani-localstorage.netlify.app/"}
               />
             </div>
 
             <div className="col-span-6 sm:col-span-12">
               <Project
-                img={project1}
-                type={"Featured Project"}
-                title={"Bank_App"}
-                github={"www.github.com/sikander-nawaz"}
-                link={"https://www.webapp.vercel.com/"}
+                img={calculator}
+                type={"Mini Project"}
+                title={"Scientific Calculator"}
+                github={"https://github.com/sikander-nawaz/Assignment_14.git"}
+                link={"https://javascript-calculator-assignment.netlify.app/"}
               />
             </div>
 
-            <div className="col-span-12">
+            {/* <div className="col-span-12">
               <FeaturedProject
                 img={project1}
                 type={"Featured Project"}
@@ -202,7 +204,7 @@ const projects = () => {
                 github={"www.github.com/sikander-nawaz"}
                 link={"https://www.webapp.vercel.com/"}
               />
-            </div>
+            </div> */}
           </div>
         </Layout>
       </main>

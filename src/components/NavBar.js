@@ -127,9 +127,9 @@ const NavBar = () => {
             onClick={() => setMode(mode === "light" ? "dark" : "light")}
           >
             {mode === "dark" ? (
-              <SunIcon className={"fill-dark"} />
-            ) : (
               <MoonIcon className={"fill-dark"} />
+            ) : (
+              <SunIcon className={"fill-dark"} />
             )}
           </button>
         </nav>

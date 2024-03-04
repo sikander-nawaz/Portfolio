@@ -57,7 +57,7 @@ const about = () => {
                 Biography
               </h2>
               <p className="font-medium">
-                Hi, I'm Sikander Nawaz, a dynamic Full Stack MERN (MongoDB,
+                Hi, I&apos;m Sikander Nawaz, a dynamic Full Stack MERN (MongoDB,
                 Express.js, React.js, Node.js) developer passionate about
                 crafting seamless digital experiences. With expertise in both
                 frontend and backend development, I excel in creating

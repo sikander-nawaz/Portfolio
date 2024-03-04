@@ -2,7 +2,7 @@ import React from "react";
 
 const Skill = ({ name }) => {
   return (
-    <div className="flex items-center justify-start rounded-full font-semibold bg-dark text-light py-3 px-6 shadow-dark cursor-pointer dark:bg-light dark:text-dark lg:py-2 lg:px-4 md:text-sm md:py-1.5 md:px-3 sm:bg-transparent sm:dark:bg-transparent sm:text-dark sm:dark:text-light sm:font-bold">
+    <div className="flex items-start justify-start rounded-full font-semibold bg-dark text-light py-3 px-6 shadow-dark cursor-pointer dark:bg-light dark:text-dark lg:py-2 lg:px-4 md:text-sm md:py-1.5 md:px-3 sm:bg-transparent sm:dark:bg-transparent sm:text-dark sm:dark:text-light sm:font-bold xxs:font-normal">
       <span>➾</span>&nbsp; {name}
     </div>
   );
@@ -10,7 +10,7 @@ const Skill = ({ name }) => {
 
 const MobilesSkills = () => {
   return (
-    <div className="flex items-center justify-between 2xl:hidden xl:hidden lg:hidden md:hidden sm:flex sm:pt-10">
+    <div className="flex items-start justify-between 2xl:hidden xl:hidden lg:hidden md:hidden sm:flex sm:pt-10">
       <div>
         <Skill name={"Java (DSA)"} />
         <Skill name={"JavaScript ES6+"} />

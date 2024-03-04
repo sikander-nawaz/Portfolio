@@ -57,25 +57,25 @@ const about = () => {
                 Biography
               </h2>
               <p className="font-medium">
-                Hi, I'm Sikander Nawaz, a full stack developer (MERN) with a
-                passion for creating beautiful, functional, and user-centered
-                digital experiences. With 6 months of experience in the field. I
-                am always looking for new and innovative ways to bring my
-                clients' visions to life.
+                Hi, I'm Sikander Nawaz, a dynamic Full Stack MERN (MongoDB,
+                Express.js, React.js, Node.js) developer passionate about
+                crafting seamless digital experiences. With expertise in both
+                frontend and backend development, I excel in creating
+                responsive, user-friendly web applications.
               </p>
 
               <p className="font-medium my-4">
-                I believe that design is about more than just making things look
-                pretty - it's about solving problems and creating intuitive,
-                enjoyable experiences for users.
+                My proficiency in MERN stack technologies allows me to design
+                robust solutions that meet client objectives and exceed
+                expectations
               </p>
 
               <p className="font-medium">
-                Whether I'm working on a website, mobile app, or other digital
-                product, I bring my commitment to design excellence and
-                user-centered thinking to every project I work on. I look
-                forward to the opportunity to bring my skills and passion to
-                your next project.
+                From conceptualization to deployment, I leverage my skills to
+                deliver efficient and scalable software products. With a keen
+                eye for detail and a commitment to innovation, I am dedicated to
+                pushing the boundaries of web development to deliver exceptional
+                results.
               </p>
             </div>
 

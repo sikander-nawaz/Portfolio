@@ -62,6 +62,8 @@ module.exports = {
 
       xs: { max: "479px" },
       // => @media (max-width: 479px) { ... }
+
+      xxs: { max: "369px" },
     },
   },
   plugins: [],

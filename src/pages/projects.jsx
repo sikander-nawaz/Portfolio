@@ -144,7 +144,7 @@ const projects = () => {
               <FeaturedProject
                 img={crud}
                 type={"Featured Project"}
-                title={"CRUD_MERN WEB APP"}
+                title={"CRUD_MERN Web App"}
                 summary={
                   "CRUD MERN application for streamlined employee management, allowing seamless creation, retrieval, updating, and deletion of employee records."
                 }

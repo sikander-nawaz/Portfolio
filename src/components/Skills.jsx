@@ -34,7 +34,7 @@ const Skills = () => {
         <Skill name={"SAAS/SCCS"} x={"-25vw"} y={"-20vw"} />
         <Skill name={"Bootstrap CSS"} x={"-28vw"} y={"18vw"} />
         <Skill name={"Tailwind CSS"} x={"28vw"} y={"18vw"} />
-        <Skill name={"Javascript"} x={"-0vw"} y={"-21vw"} />
+        <Skill name={"Javascript"} x={"-0vw"} y={"-20vw"} />
         <Skill name={"ReactNative"} x={"-36vw"} y={"-1vw"} />
         <Skill name={"ReactJS"} x={"36vw"} y={"0vw"} />
         <Skill name={"NextJS"} x={"0vw"} y={"20vw"} />
@@ -42,7 +42,7 @@ const Skills = () => {
         <Skill name={"NodeJS"} x={"-21vw"} y={"-11vw"} />
         <Skill name={"MongoDB"} x={"-25vw"} y={"8vw"} />
         <Skill name={"Firebase"} x={"21vw"} y={"11vw"} />
-        <Skill name={"Python"} x={"0vw"} y={"-13vw"} />
+        <Skill name={"Python"} x={"0vw"} y={"-12vw"} />
         <Skill name={"Java"} x={"0vw"} y={"12vw"} />
         <Skill name={"Git"} x={"-14vw"} y={"0vw"} />
         <Skill name={"GitHub"} x={"14vw"} y={"0vw"} />

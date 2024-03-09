@@ -1,7 +1,5 @@
 # Portfolio Website with Nextjs, Tailwind CSS and Framer-motion🌟
 
-This portfolio clone from [CodeBucks](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code) fro educational purpose.
-
 ## Images of The Portfolio Website:
 
 <img src="./WebImages/HomeLight.PNG" alt="homeLight">

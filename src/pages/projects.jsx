@@ -9,6 +9,7 @@ import AnimatedText from "@/components/AnimatedText";
 import calculator from "../../public/images/projects/calculator.PNG";
 import crud from "../../public/images/projects/CRUD.png";
 import managmentSystem from "../../public/images/projects/user-managment-system.PNG";
+import portfolio from "../../public/images/projects/portfolio.PNG";
 import TransitionEffect from "@/components/TransitionEffect";
 
 const FramerMotion = motion(Image);
@@ -142,17 +143,36 @@ const projects = () => {
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
               <FeaturedProject
+                img={portfolio}
+                type={"Featured Project"}
+                title={"Next_JS Portfolio"}
+                summary={
+                  "Creating a portfolio web app with Next.js, Tailwind CSS, and Framer Motion is an excellent way to practice your skills and showcase your work."
+                }
+                github={"https://github.com/sikander-nawaz/Portfolio"}
+                link={"https://sikander-nawaz.vercel.app"}
+              />
+            </div>
+
+            <div className="col-span-12">
+              <FeaturedProject
                 img={crud}
                 type={"Featured Project"}
                 title={"CRUD_MERN Web App"}
                 summary={
                   "CRUD MERN application for streamlined employee management, allowing seamless creation, retrieval, updating, and deletion of employee records."
                 }
-                github={"www.github.com/sikander-nawaz"}
+                github={"https://github.com/sikander-nawaz/CRUD_MERN"}
                 link={"www.github.com/sikander-nawaz"}
               />
             </div>
+          </div>
 
+          <h2 className="font-bold text-4xl w-full text-center my-16 mt-32">
+            Other Projects
+          </h2>
+
+          <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-6 sm:col-span-12">
               <Project
                 img={managmentSystem}
@@ -172,39 +192,6 @@ const projects = () => {
                 link={"https://javascript-calculator-assignment.netlify.app/"}
               />
             </div>
-
-            {/* <div className="col-span-12">
-              <FeaturedProject
-                img={project1}
-                type={"Featured Project"}
-                title={"Bank_App"}
-                summary={
-                  "A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
-                }
-                github={"www.github.com/sikander-nawaz"}
-                link={"https://www.webapp.vercel.com/"}
-              />
-            </div>
-
-            <div className="col-span-6 sm:col-span-12">
-              <Project
-                img={project1}
-                type={"Featured Project"}
-                title={"Bank_App"}
-                github={"www.github.com/sikander-nawaz"}
-                link={"https://www.webapp.vercel.com/"}
-              />
-            </div>
-
-            <div className="col-span-6 sm:col-span-12">
-              <Project
-                img={project1}
-                type={"Featured Project"}
-                title={"Bank_App"}
-                github={"www.github.com/sikander-nawaz"}
-                link={"https://www.webapp.vercel.com/"}
-              />
-            </div> */}
           </div>
         </Layout>
       </main>
